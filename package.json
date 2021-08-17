@@ -1,0 +1,14 @@
+{
+  "name": "loadr",
+  "version": "0.0.0",
+  "repository": "lukeed/loadr",
+  "description": "WIP",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "bin": "bin.js",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com"
+  }
+}

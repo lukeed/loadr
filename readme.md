@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="logo.jpg" alt="loadr" width="400" />
+  <img src="logo.png" alt="loadr" width="400" />
 </div>
 
 <div align="center">
   <a href="https://npmjs.org/package/loadr">
     <img src="https://badgen.now.sh/npm/v/loadr" alt="version" />
   </a>
-  <a href="https://github.com/lukeed/loadr/actions">
+  <!-- <a href="https://github.com/lukeed/loadr/actions">
     <img src="https://github.com/lukeed/loadr/workflows/CI/badge.svg" alt="CI" />
-  </a>
-  <!-- <a href="https://npmjs.org/package/loadr">
-    <img src="https://badgen.now.sh/npm/dm/loadr" alt="downloads" />
   </a> -->
+  <a href="https://npmjs.org/package/loadr">
+    <img src="https://badgen.now.sh/npm/dm/loadr" alt="downloads" />
+  </a>
   <a href="https://packagephobia.now.sh/result?p=loadr">
     <img src="https://packagephobia.now.sh/badge?p=loadr" alt="install size" />
   </a>

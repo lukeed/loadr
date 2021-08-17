@@ -19,7 +19,7 @@
 
 <div align="center">
   Quickly attach <em>multiple</em> ESM Loaders and/or Require Hooks together <br>
-	but without the repetitive `--experimental-loader` and/or `--require` Node flags
+  but without the repetitive `--experimental-loader` and/or `--require` Node flags
 </div>
 
 
@@ -38,6 +38,33 @@
 $ npm install --save-dev loadr
 ```
 
+## Example
+
+***Before***
+
+```sh
+$ node --require dotenv/config \
+  --experimental-loader ts-node/esm \
+  --experimental-loader ./tests/loader.mjs \
+  server/index.mjs
+```
+
+***After***
+
+```sh
+$ loadr -- node server/index.mjs
+```
+
+```js
+// loadr.mjs
+export const loaders = [
+  'ts-node/esm',
+  './tests/loader.mjs',
+]
+export const registers = [
+  'dotenv/config',
+]
+```
 
 ## Usage
 

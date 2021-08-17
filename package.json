@@ -2,7 +2,7 @@
   "name": "loadr",
   "version": "0.0.0",
   "repository": "lukeed/loadr",
-  "description": "WIP",
+  "description": "Quickly attach multiple ESM Loaders and/or --require hooks together",
   "types": "index.d.ts",
   "license": "MIT",
   "bin": "bin.js",

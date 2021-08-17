@@ -10,5 +10,25 @@
     "name": "Luke Edwards",
     "email": "luke.edwards05@gmail.com",
     "url": "https://lukeed.com"
-  }
+  },
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.d.ts",
+    "bin.js"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@types/node": "16.6.1"
+  },
+  "keywords": [
+    "esm",
+    "loader",
+    "loader hook",
+    "require hook",
+    "experimental-loader"
+  ]
 }

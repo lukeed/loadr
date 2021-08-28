@@ -1,6 +1,6 @@
 {
   "name": "loadr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "lukeed/loadr",
   "description": "Quickly attach multiple ESM Loaders and/or --require hooks together",
   "types": "index.d.ts",

@@ -59,7 +59,7 @@ function run(NODE_OPTIONS) {
 }
 
 if (existsSync(config)) {
-	import(config).then(async m => {
+	import('file:///' + config).then(async m => {
 		m = m.default || m;
 		quiet = quiet || !!m.quiet;
 
